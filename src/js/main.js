@@ -9,6 +9,7 @@ document.querySelector('[data-btn-video]').addEventListener('click', event => {
 document.querySelector('[data-modal-video]').addEventListener('click', event => {
     event.preventDefault()
     document.querySelector('[data-modal-video]').style.display='none'
+    document.querySelector('[data-modal-video]').innerHTML = document.querySelector('[data-modal-video]').innerHTML
 })
 
 menuToggle.onclick = function(){
